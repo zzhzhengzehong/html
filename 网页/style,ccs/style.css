@@ -1,0 +1,185 @@
+/* 搜索框 */
+.search {
+    float: right;
+    width: 248px;
+    height: 20px;
+    background-color: skyblue;
+    margin-right: 250px;
+    margin-top: -96px;
+}
+
+.search input {
+    float: left;
+    width: 209px;
+    height: 20px;
+    border: 1px solid cadetblue;
+    border-right: 0;
+    color: black;
+    padding-left: 15px;
+}
+
+.search button {
+    float: right;
+    width: 23px;
+    height: 22px;
+    background: url("../search.png");
+    border: 0;
+
+}
+
+/* 歌单 */
+.biao table {
+    background-color: #e8e8e8;
+    border-color: black;
+    clear: left;
+}
+
+.biao table td {
+    text-decoration: none;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+
+.biao a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    color: #242424;
+    font-size: 15px;
+    margin: top 20px;
+}
+
+.biao a:hover {
+    background: #e8e8e8;
+}
+
+.tu img {
+    float: left;
+}
+
+.tu img table tr {
+    clear: both;
+}
+
+/* 歌手简介 */
+.ge a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    color: #242424;
+    font-size: 15px;
+    margin: top 20px;
+}
+
+.ge table {
+    background-color: #e8e8e8;
+    clear: both;
+}
+
+.ge table tr td {
+    background-color: #f4f4f4;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ge a:hover {
+    background: #e8e8e8;
+}
+
+/* 推荐歌曲 */
+.pian img {
+    float: left;
+}
+
+.pian img table tr {
+    clear: both;
+}
+
+.form a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    color: #242424;
+    font-size: 15px;
+    margin: top 20px;
+}
+
+.form table {
+    background-color: #e8e8e8;
+    clear: both;
+}
+
+.form table tr td {
+    background-color: #f4f4f4;
+    text-align: center;
+    text-decoration: none;
+}
+
+.form a:hover {
+    background: #e8e8e8;
+}
+
+/* 尾部 */
+.wei {
+    height: 202px;
+    background: #242424;
+}
+
+.wei a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 40px;
+    color: white;
+    font-size: 15px;
+}
+
+.wei strong {
+    color: white;
+}
+
+.wei img {
+    float: left;
+    height: 100px;
+}
+
+.lian {
+    height: 100px;
+    float: left;
+    border-right: 1px white;
+}
+
+.lian a {
+    height: 0px;
+    display: block;
+    color: white;
+    margin-left: 80px;
+    text-align: center;
+    padding: 20px 20px 40px;
+}
+
+.lian a:hover {
+    background: #000;
+}
+
+.bu-hd {
+    line-height: 50px;
+    height: 101px;
+    width: 1450px;
+    border-bottom: 1px white dotted;
+    color: white;
+    float: right;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.bu-bd {
+    height: 80px;
+    width: 1450px;
+    float: right;
+    text-align: center;
+}

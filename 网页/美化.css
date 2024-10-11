@@ -1,0 +1,124 @@
+.main {
+    height: auto;
+    width: 1200px;
+    margin-left: 450px;
+}
+
+/* 导航 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    height: 108px;
+    border-bottom: 34px solid #C20C0C;
+    background-color: #242424;
+}
+
+
+
+.photo img {
+    float: left;
+    width: 100px;
+    height: 108px;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 40px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.navigation a:hover {
+    background-color: black;
+}
+
+.chose {
+    background-color: black;
+}
+
+/* 清除浮动 */
+.clearfix {
+    clear: both;
+}
+
+/* 版面 */
+.wrapper {
+    width: 709px;
+    margin-left: 100px;
+    float: left;
+}
+
+/* 标题 */
+.song-list .hd {
+    width: 640px;
+    height: 300px;
+    padding-top: 47px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.title2 {
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.title2 img {
+    vertical-align: text-top;
+}
+
+.title2 img:first-child {
+    width: 208px;
+    height: 208px;
+}
+
+.title2 img:last-child {
+    width: 54px;
+    height: 24px;
+}
+
+/* 内容 */
+.song-list .bd {
+    width: 640px;
+    height: 471px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.song-list .bd .big-T {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.song-list .bd .small-T {
+    font-size: 12px;
+    color: #666;
+}
+
+.song-list .bd table a {
+    text-decoration: none;
+    color: #333;
+}
+
+.song-list .bd table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.song-list .bd td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.song-list .bd tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(n+2):hover {
+    background-color: #e2e2e2;
+}
